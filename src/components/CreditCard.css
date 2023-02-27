@@ -1,0 +1,40 @@
+.CreditCard {
+    display: inline-block;
+    width: 20rem;
+    height: 12rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.CreditCard > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cc-logo {
+    text-align: right;
+    width: 100%;
+    
+}
+
+.cc-logo img {
+    width: 2rem;
+    margin: 0.5rem 1rem;
+}
+
+.cc-data {
+    align-self: start;
+    text-align: left;
+}
+
+.cc-number {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.cc-bank {
+    margin-left: 1rem;
+}
