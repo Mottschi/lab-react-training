@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './FaceBook.css';
 import profiles from '../data/berlin.json';
-import LikeButton from './LikeButton';
 
 
 
