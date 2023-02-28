@@ -8,7 +8,6 @@ function Rating({children}) {
         if (i < filled) stars.push('★')
         else stars.push('☆')
     }
-    console.log(children, filled, stars)
   return (
     <div className="Rating">
         {stars}

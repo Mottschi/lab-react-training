@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './NumbersTable.css';
 
-function NumbersTable() {
+function NumbersTable({limit}) {
+  const arr = new Array(limit).fill(0);
+
   return (
-    <div>NumbersTable</div>
+    <ul className='NumbersTable'>
+      {arr.map( (element, index) => <li key={index} style={{backgroundColor: index % 2 ? 'red' : 'white'}}><span>{index+1}</span></li>)}
+    </ul>
   )
 }
 

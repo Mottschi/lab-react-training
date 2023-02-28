@@ -138,6 +138,8 @@ function App() {
 
       <h2>NumbersTable</h2>
       <NumbersTable limit={12} />
+      <NumbersTable limit={6} />
+      <NumbersTable limit={24} />
 
       <h2>FaceBook</h2>
       <FaceBook />
