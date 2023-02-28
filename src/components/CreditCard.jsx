@@ -8,7 +8,7 @@ steps found online that were supposed to help, none of it worked. Only way I man
 the picture was to copy it to public folder and use it as a direct static link instead of
 importing it.
 */
-// import mcImg from '../assets/images/master-card.svg';
+//import mcImg from '../assets/images/master-card.svg';
 const mcImg = '/images/master-card.svg';
 
 function CreditCard({type, number, expirationMonth, expirationYear, bank, owner, bgColor, color}) {

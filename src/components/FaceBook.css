@@ -1,0 +1,28 @@
+.facebook-profile {
+    display: flex;
+    border: 1px solid black;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    text-align: left;
+}
+
+.facebook-profile span {
+    font-weight: 700;
+}
+
+.facebook-profile p {
+    margin-left: 0.5rem;
+}
+
+.facebook-profile img {
+    width: 100px;
+}
+
+.btn-country {
+    margin: 5px;
+    padding: 5px;
+}
+
+.highlight {
+    background-color: aqua;
+}
