@@ -8,6 +8,12 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
+import NumbersTable from './components/NumbersTable';
+import FaceBook from './components/FaceBook';
+import SignupPage from './components/SignupPage';
+import RGBColorPicker from './components/RGBColorPicker';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -118,9 +124,29 @@ function App() {
       />
       
       <h2>Dice</h2>
-      <h2>Carousel</h2>
-      <h2>NumbersTable</h2>
+      <Dice />
 
+      <h2>Carousel</h2>
+      <Carousel
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg'
+        ]}
+      />
+
+      <h2>NumbersTable</h2>
+      <NumbersTable limit={12} />
+
+      <h2>FaceBook</h2>
+      <FaceBook />
+
+      <h2>SignupPage</h2>
+      <SignupPage />
+
+      <h2>RGBColorPicker</h2>
+      <RGBColorPicker/>
     </div>
   );
 }
