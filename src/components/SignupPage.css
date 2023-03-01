@@ -1,0 +1,14 @@
+.SignupPage {
+    width: 32ch;
+}
+
+.SignupPage input, .SignupPage select {
+    width: 20ch;
+    display: inline-block;
+
+}
+
+.SignupPage label {
+    width: 10ch;
+    display: inline-block;
+}
