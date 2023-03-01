@@ -1,9 +1,9 @@
 .SignupPage {
-    width: 32ch;
+    margin: 0.5rem;
 }
 
 .SignupPage input, .SignupPage select {
-    width: 20ch;
+    width: 30ch;
     display: inline-block;
 
 }
@@ -11,4 +11,20 @@
 .SignupPage label {
     width: 10ch;
     display: inline-block;
+}
+
+.strong-password {
+    background-color: green;
+}
+
+.weak-password {
+    background-color: red;
+}
+
+.valid-email {
+    background-color: green;
+}
+
+.invalid-email {
+    background-color: red;
 }
